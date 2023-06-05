@@ -23,3 +23,9 @@ BookMyPitch is a college undertaking associated with Politecnico di Torino's Mob
 ## Profile screen
 -------------
 ![home](https://github.com/giorgioDaniele/BookMyPitch/blob/main/screens/profile_screen)
+
+
+## Contributors
+- [@giorgioDaniele](https://www.github.com/giorgioDaniele)
+- [@miolad](https://www.github.com/miolad)
+- [@Nico331](https://www.github.com/Nico331)
