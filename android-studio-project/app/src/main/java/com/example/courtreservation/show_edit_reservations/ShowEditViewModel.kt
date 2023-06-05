@@ -283,6 +283,7 @@ class ShowEditViewModel  @Inject constructor(
         _reminderInEditMode.reminder = reminder
         Log.d("EDIT", "${reminder.hour.toString().padStart(2, '0')}:00 - ${(reminder.hour + 1).toString().padStart(2, '0')}:00")
         _currentSlot.value = "${reminder.hour.toString().padStart(2, '0')}:00 - ${(reminder.hour + 1).toString().padStart(2, '0')}:00"
+        _reminderInEditMode.pickedHour = _currentSlot.value.substring(0,2).toInt()
         Log.d("EDIT", _currentSlot.value)
         _inputText.value  = reminder.customRequest
     }
